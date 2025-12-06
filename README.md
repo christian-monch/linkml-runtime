@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **linkml-runtime was integrated into the linkml repository on Dec 1st, 2025** in linkml/linkml#2987
+> 
+> **No further PRs will be merged into this repository.** It will be archived soon.
+
 # linkml-runtime
 [![Pyversions](https://img.shields.io/pypi/pyversions/linkml-runtime.svg)](https://pypi.python.org/pypi/linkml-runtime)
 ![](https://github.com/linkml/linkml-runtime/workflows/Build/badge.svg)
