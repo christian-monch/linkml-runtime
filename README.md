@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **linkml-runtime was integrated into the linkml repository on Dec 1st, 2025** in linkml/linkml#2987
+> **linkml-runtime was integrated into the [linkml repository](https://github.com/linkml/linkml) on Dec 1st, 2025** in linkml/linkml#2987
 > 
 > **No further PRs will be merged into this repository.** It will be archived soon.
 
