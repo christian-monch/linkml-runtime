@@ -116,6 +116,11 @@ class RDFLibLoader(Loader):
                         raise ValueError(f"Ambiguous types for {subject} == {type_classes}")
                     logger.info(f"Replacing {subject_class} with {type_classes}")
                     subject_class = type_classes[0].name
+                    # PATCH >>>>>
+                    type_class_iri = schemaview.get_uri(type_classes[0])
+                    if type_class_iri is not None:
+                        dict_obj[type_designator_slot.name] = type_class_iri
+                    # PATCH <<<<<
             # process all triples for this node
             for _, p, o in graph.triples((subject, None, None)):
                 processed_triples.add((subject, p, o))
